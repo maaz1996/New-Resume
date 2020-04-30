@@ -12,10 +12,10 @@
     },
     "profiles": [
       {
-        "network": "DEV Community",
+        "network": "HackerRank",
         "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon": "fab fa-2x fa-dev"
+        "url": "https://www.hackerrank.com/maaz_abdullah111",
+        "x_icon": "fab fa-2x fa-hackerrank"
       },
       {
         "network": "LinkedIn",
