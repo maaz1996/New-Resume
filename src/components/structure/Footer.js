@@ -7,7 +7,7 @@ function Footer() {
         <p>
           Built at <i className="fas fa-moon"></i> by{" "}
           <a href="https://github.com/jcoelho93" className="has-text-white">
-            <strong>José Coelho</strong>
+            <strong>Maaz Abdullah</strong>
           </a>
         </p>
         <p>
