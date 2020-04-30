@@ -13,11 +13,13 @@ function Skills() {
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-cogs"></i>
               </span>
-              <h2 className="title is-5">DevOps</h2>
+              <h2 className="title is-5">Programming Languages</h2>
             </div>
             <SkillsList
               skills={Resume.skills
-                .filter(skill => skill.keywords.includes("DevOps"))
+                .filter((skill) =>
+                  skill.keywords.includes("Programming Languages")
+                )
                 .reduce((obj, item) => {
                   obj[item.name] = item.level;
                   return obj;
@@ -29,11 +31,13 @@ function Skills() {
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-laptop-code"></i>
               </span>
-              <h2 className="title is-5">Software Development</h2>
+              <h2 className="title is-5">Frameworks/Problem Solving</h2>
             </div>
             <SkillsList
               skills={Resume.skills
-                .filter(skill => skill.keywords.includes("Software Developer"))
+                .filter((skill) =>
+                  skill.keywords.includes("Frameworks/Problem Solving")
+                )
                 .reduce((obj, item) => {
                   obj[item.name] = item.level;
                   return obj;

@@ -19,14 +19,14 @@
       },
       {
         "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
+        "username": "maaz-abdullah",
+        "url": "https://www.linkedin.com/in/maaz-abdullah/",
         "x_icon": "fab fa-2x fa-linkedin"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
+        "username": "maaz1996",
+        "url": "https://github.com/maaz1996",
         "x_icon": "fab fa-2x fa-github"
       }
     ]
@@ -95,74 +95,84 @@
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "C++",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": ["Programming Languages"]
     },
     {
-      "name": "Continuous Integration",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Containers",
+      "name": "Node.js",
       "level": "Intermediate",
-      "keywords": ["DevOps"]
+      "keywords": ["Programming Languages"]
     },
     {
-      "name": "Cloud",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Troubleshooting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Infrastructure as Code",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Design Patterns",
+      "name": "Python",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Programming Languages"]
     },
     {
-      "name": "Git",
+      "name": "Java",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Programming Languages"]
     },
     {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Unit Testing",
+      "name": "Spring Boot",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Programming Languages"]
+    },
+    {
+      "name": "MongoDb",
+      "level": "Intermediate",
+      "keywords": ["Programming Languages"]
     },
     {
       "name": "MySQL",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Programming Languages"]
     },
     {
-      "name": "MongoDB",
+      "name": "HTML/CSS",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": ["Programming Languages"]
+    },
+    {
+      "name": "Algorithm & Data Structure",
+      "level": "Advanced",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "Github",
+      "level": "Intermediate",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "REST API",
+      "level": "Advanced",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "OS: Windows, Linux",
+      "level": "Advanced",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "Object Oriented Programming",
+      "level": "Intermediate",
+      "keywords": ["Frameworks/Problem Solving"]
+    },
+    {
+      "name": "SAP Successfactors",
+      "level": "Intermediate",
+      "keywords": ["Frameworks/Problem Solving"]
     }
   ],
   "languages": [
