@@ -6,18 +6,12 @@ function Footer() {
       <div className="content has-text-centered has-text-white">
         <p>
           Built at <i className="fas fa-globe"></i> by{" "}
-          <a href="https://github.com/jcoelho93" className="has-text-white">
+          <a href="https://github.com/maaz1996" className="has-text-white">
             <strong>Maaz Abdullah</strong>
           </a>
         </p>
         <p>
-          <img
-            width="512"
-            height="96"
-            src="https://bulma.io/images/made-with-bulma--semiwhite.png"
-            className="bulma-image"
-            alt=""
-          />
+          Made with <i className="fas fa-heart"></i> 2020
         </p>
       </div>
     </footer>

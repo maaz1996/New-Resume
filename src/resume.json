@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Maaz Abdullah",
-    "label": "SAP Integration & Innovation Consultant",
+    "label": "Software Developer",
     "picture": "images/me.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 1 years of experience in IT. Currently, I’m working as a Developer/Associate Consultant exploring the SAP and Software World. I’m interested in softwared developement, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 1 years of experience in IT. Currently, I’m working as a Developer/Associate Consultant exploring the SAP SuccessFactors and Software World. I’m interested in softwared developement, all sorts of automation and developing front-end and back-end applications.",
     "location": {
       "country": "India",
       "countryCode": "IND",
@@ -33,63 +33,56 @@
   },
   "work": [
     {
-      "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
+      "company": "Stepping Cloud",
+      "position": "SAP Integration and Innovation Consultant",
       "website": "https://www.bosch.hu",
-      "startDate": "2019-10-15",
+      "startDate": "2019-07-22",
       "endDate": "",
-      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+      "summary": "Joined the Alumni Portal Project as Backend developer, Got into SAP SuccessFactors Domain, REST APIs, Integration, Workforce Analytics",
       "highlights": []
     },
+
     {
-      "company": "Asseco PST",
-      "position": "DevOps Engineer",
+      "company": "The Sparks Foundation",
+      "position": "Intern",
       "website": "https://www.pst.asseco.com",
-      "startDate": "2018-04-01",
-      "endDate": "2019-08-30",
-      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
-      "highlights": []
-    },
-    {
-      "company": "Asseco PST",
-      "position": "Backend Developer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2017-08-16",
+      "startDate": "2018-08-15",
       "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+      "summary": "Scrum Fundamentals, LinkedIn Improvement, Resume Booster, Web Development",
+      "highlights": []
+    },
+
+    {
+      "company": "Read on Rent",
+      "position": "Developer",
+      "website": "https://www.eem.pt",
+      "startDate": "2017-03-01",
+      "endDate": "2017-09-01",
+      "summary": "Developed a website to get a startup business online wherein customers could order books to read on rent",
       "highlights": []
     },
     {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
-      "startDate": "2016-05-01",
-      "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
-      "highlights": []
-    },
-    {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
+      "company": "Zakir Hussain College of Engg & Technology, AMU",
+      "position": "Developer",
       "website": "https://www.eem.pt",
       "startDate": "2015-03-01",
-      "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "endDate": "2017-09-01",
+      "summary": "Developed a website to get a startup business online wherein customers could order books to read on rent",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
+      "institution": "Zakir Hussain College of Engg & Technology, AMU",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-09-15",
+      "startDate": "2011-08-01",
       "endDate": "2019-06-07",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
+        "Algorithm & Data Structure",
+        "Computer Networks"
       ]
     }
   ],
@@ -181,7 +174,7 @@
       "fluency": "Fluent speaker"
     },
     {
-      "language": "Portuguese",
+      "language": "Hindi",
       "fluency": "Native speaker"
     }
   ],

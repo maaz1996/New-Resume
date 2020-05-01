@@ -15,7 +15,7 @@ function Timeline() {
         <div className="timeline-content"></div>
       </div>
       {Resume.work
-        .map(item => {
+        .map((item) => {
           return new Date(item.startDate).getFullYear();
         })
         .map((year, i) => {
@@ -27,16 +27,17 @@ function Timeline() {
           );
           content.push(
             Resume.work
-              .filter(work => new Date(work.startDate).getFullYear() === year)
+              .filter((work) => new Date(work.startDate).getFullYear() === year)
               .map((item, j) => {
                 return (
                   <TimelineItem
                     key={j}
                     date={new Date(item.startDate).toLocaleString("en-UK", {
                       month: "long",
-                      year: "numeric"
+                      year: "numeric",
                     })}
                     company={item.company}
+                    position={item.position}
                     summary={item.summary}
                   />
                 );
