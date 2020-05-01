@@ -8,13 +8,13 @@ class Articles extends Component {
   }
 
   componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=jcoelho";
+    const devTo = "https://dev.to/api/articles?username=maaz1996";
 
     fetch(devTo)
-      .then(response => {
+      .then((response) => {
         return response.json();
       })
-      .then(data => {
+      .then((data) => {
         let articles = [];
         data = data.slice(0, 4);
         data.forEach((element, index) => {
