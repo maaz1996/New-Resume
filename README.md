@@ -18,7 +18,7 @@ If you improve the app in any way a PR would be very apreciated ;)
 1. Clone the repo:
 
 ```console
-> git clone https://github.com/jcoelho93/personal-website.git
+> git clone https://github.com/maaz1996/New-Resume.git
 ```
 
 2. Update the _resume.json_ with your personal information (check [JSON Resume](https://jsonresume.org/))
