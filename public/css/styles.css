@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 .is-180x180 {
   height: 180px;
