@@ -4,7 +4,7 @@
     "label": "Software Developer",
     "picture": "images/me.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 1 years of experience in IT. Currently, I’m working as a Developer/Associate Consultant exploring the SAP SuccessFactors and Software World. I’m interested in software development, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 1.5 years of experience in IT. Currently, I’m working as a Developer/Associate Consultant exploring the SAP SuccessFactors and Software World. I’m interested in software development, all sorts of automation and developing front-end and back-end applications.",
     "location": {
       "country": "India",
       "countryCode": "IND",
@@ -33,11 +33,20 @@
   },
   "work": [
     {
+      "company": "Shyplite",
+      "position": "Software Developer",
+      "website": "https://www.bosch.hu",
+      "startDate": "2021-02-17",
+      "endDate": "",
+      "summary": "Joined as Software Developer with the backend team",
+      "highlights": []
+    },
+    {
       "company": "Stepping Cloud",
       "position": "SAP Integration and Innovation Consultant",
       "website": "https://www.bosch.hu",
       "startDate": "2019-07-22",
-      "endDate": "",
+      "endDate": "2021-02-15",
       "summary": "Joined the Alumni Portal Project as Backend developer, Got into SAP SuccessFactors Domain, REST APIs, Integration, Workforce Analytics",
       "highlights": []
     },
