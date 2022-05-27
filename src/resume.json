@@ -34,7 +34,7 @@
   "work": [
     {
       "company": "Sunstone",
-      "position": "Software Enginner",
+      "position": "Software Engineer",
       "website": "https://www.bosch.hu",
       "startDate": "2022-03-14",
       "endDate": "",
@@ -105,28 +105,19 @@
     }
   ],
   "skills": [
-    {
-      "name": "C++",
-      "level": "Advanced",
-      "keywords": ["Programming Languages"]
-    },
+    
     {
       "name": "Node.js",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "Python",
+      "name": "MySQL",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "Java",
-      "level": "Intermediate",
-      "keywords": ["Programming Languages"]
-    },
-    {
-      "name": "Spring Boot",
+      "name": "Javascript",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
@@ -136,7 +127,17 @@
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "MySQL",
+      "name": "C++",
+      "level": "Advanced",
+      "keywords": ["Programming Languages"]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": ["Programming Languages"]
+    },
+    {
+      "name": "Spring Boot",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
