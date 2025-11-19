@@ -36,7 +36,7 @@
       "company": "Nielsen",
       "position": "Member of Technical Staff 2",
       "website": "https://www.bosch.hu",
-      "startDate": "2025-08-22",
+      "startDate": "2024-08-22",
       "endDate": "",
       "summary": "Joined as MTS-2 with an aim to engineer and moderate code",
       "highlights": []
@@ -45,8 +45,8 @@
       "company": "Techmojo",
       "position": "Member of Technical Staff 1",
       "website": "https://www.bosch.hu",
-      "startDate": "2025-01-22",
-      "endDate": "",
+      "startDate": "2024-01-22",
+      "endDate": "2024-07-31",
       "summary": "Joined as MTS-1 in a new city with a zeal for learning and development",
       "highlights": []
     },
@@ -55,7 +55,7 @@
       "position": "Software Engineer",
       "website": "https://www.bosch.hu",
       "startDate": "2022-03-14",
-      "endDate": "",
+      "endDate": "2023-12-20",
       "summary": "Joined as Software Engineer with an Enthusiam to revolutionize the Ed-tech world",
       "highlights": []
     },
@@ -73,7 +73,7 @@
       "position": "Computer Engineering(2015-2019)",
       "website": "https://www.eem.pt",
       "startDate": "2015-08-01",
-      "endDate": "2017-09-01",
+      "endDate": "2019-06-22",
       "summary": "Object Oriented Programming, Database Management Systems, Algorithm & Data Structure,Computer Networks",
       "highlights": []
     }
@@ -83,8 +83,8 @@
       "institution": "Zakir Hussain College of Engg & Technology, AMU",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-08-01",
-      "endDate": "2019-06-07",
+      "startDate": "2015-08-01",
+      "endDate": "2019-06-22",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
