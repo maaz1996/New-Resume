@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Maaz Abdullah",
-    "label": "Software Engineer",
+    "label": "Member of Technical Staff 2",
     "picture": "images/me.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 4 years of experience in Software World. Currently, I’m working as a Software Engineer exploring the Ed-tech World. I have been involed with Logistics Industry, Human Capital Management and CRM. I’m interested in Coding, Problem Solving, Mathematics, Travelling and Photography! ",
+    "summary": "Going on 6 years of experience in Software Engineering. Currently, I’m working as a MTS-2 exploring the world of identity. I have been involed with Media, Ed Tech Industry, Human Capital Management and CRM. I’m interested in Coding, Problem Solving, Mathematics, Travelling and Photography! ",
     "location": {
       "country": "India",
       "countryCode": "IND",
-      "region": "New Delhi"
+      "region": "Bangalore"
     },
     "profiles": [
       {
@@ -33,6 +33,24 @@
   },
   "work": [
     {
+      "company": "Nielsen",
+      "position": "Member of Technical Staff 2",
+      "website": "https://www.bosch.hu",
+      "startDate": "2022-03-14",
+      "endDate": "",
+      "summary": "Joined as MTS-2 with an aim to engineer and moderate code",
+      "highlights": []
+    },
+    {
+      "company": "Techmojo",
+      "position": "Member of Technical Staff 1",
+      "website": "https://www.bosch.hu",
+      "startDate": "2022-03-14",
+      "endDate": "",
+      "summary": "Joined as MTS-1 in a new city with a zeal for learning and development",
+      "highlights": []
+    },
+    {
       "company": "Sunstone",
       "position": "Software Engineer",
       "website": "https://www.bosch.hu",
@@ -42,41 +60,12 @@
       "highlights": []
     },
     {
-      "company": "Shyplite",
-      "position": "Software Developer",
-      "website": "https://www.bosch.hu",
-      "startDate": "2021-02-17",
-      "endDate": "",
-      "summary": "Joined as Software Developer with the backend team",
-      "highlights": []
-    },
-    {
       "company": "Stepping Cloud",
       "position": "SAP Integration and Innovation Consultant",
       "website": "https://www.bosch.hu",
       "startDate": "2019-07-22",
       "endDate": "2021-02-15",
       "summary": "Joined the Alumni Portal Project as Backend developer, Got into SAP SuccessFactors Domain, REST APIs, Integration, Workforce Analytics",
-      "highlights": []
-    },
-
-    {
-      "company": "The Sparks Foundation",
-      "position": "Intern",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2018-08-15",
-      "endDate": "",
-      "summary": "Scrum Fundamentals, LinkedIn Improvement, Resume Booster, Web Development",
-      "highlights": []
-    },
-
-    {
-      "company": "Read on Rent",
-      "position": "Developer",
-      "website": "https://www.eem.pt",
-      "startDate": "2017-03-01",
-      "endDate": "2017-09-01",
-      "summary": "Developed a website to get a startup business online wherein customers could order books to read on rent",
       "highlights": []
     },
     {
