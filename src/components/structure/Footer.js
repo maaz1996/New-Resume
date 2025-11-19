@@ -11,7 +11,7 @@ function Footer() {
           </a>
         </p>
         <p>
-          Made with <i className="fas fa-heart"></i> 2020
+          Made with <i className="fas fa-heart"></i> 2025
         </p>
       </div>
     </footer>
