@@ -4,13 +4,13 @@ function TimelineItem(props) {
   return (
     <div className="timeline-item is-success">
       <div className="timeline-marker is-image is-32x32">
-        <img src="" alt="" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" />
       </div>
       <div className="timeline-content">
         <p className="heading">{props.date}</p>
-        <h1 className="title is-4">{props.company}</h1>
-        <h1 className="heading">{props.position}</h1>
-        <p style={{ maxWidth: "25em" }}>{props.summary}</p>
+        <h2 className="title is-4">{props.company}</h2>
+        <p className="heading">{props.position}</p>
+        <p>{props.summary}</p>
       </div>
     </div>
   );

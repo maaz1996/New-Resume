@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../elements/Hero";
+import NavBar from "../elements/NavBar";
 
 function Header() {
   return (
-    <header>
-      <Hero />
+    <header className="site-header">
+      <NavBar />
     </header>
   );
 }

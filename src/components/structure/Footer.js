@@ -2,16 +2,20 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer has-background-link">
-      <div className="content has-text-centered has-text-white">
+    <footer className="site-footer">
+      <div className="site-footer-inner">
         <p>
-          Built at <i className="fas fa-globe"></i> by{" "}
-          <a href="https://github.com/maaz1996" className="has-text-white">
-            <strong>Maaz Abdullah</strong>
+          Built by{" "}
+          <a
+            href="https://github.com/maaz1996"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Maaz Abdullah
           </a>
         </p>
-        <p>
-          Made with <i className="fas fa-heart"></i> 2025
+        <p className="footer-note">
+          <i className="fas fa-heart" aria-hidden="true"></i> {new Date().getFullYear()}
         </p>
       </div>
     </footer>

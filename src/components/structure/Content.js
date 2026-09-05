@@ -1,16 +1,25 @@
 import React from "react";
-import AboutMe from "../sections/AboutMe";
+import ProfileSidebar from "../elements/ProfileSidebar";
+import ProfileTabs from "../elements/ProfileTabs";
+import ProfileOverview from "../sections/ProfileOverview";
 import Skills from "../sections/Skills";
 import Experience from "../sections/Experience";
-import Articles from "../sections/Articles";
+import Projects from "../sections/Projects";
 
 function Content() {
   return (
-    <main>
-      <AboutMe />
-      <Skills />
-      <Experience />
-      <Articles />
+    <main className="profile-page">
+      <div className="profile-banner" aria-hidden="true"></div>
+      <div className="profile-shell">
+        <ProfileSidebar />
+        <div className="profile-main">
+          <ProfileTabs />
+          <ProfileOverview />
+          <Skills />
+          <Experience />
+          <Projects />
+        </div>
+      </div>
     </main>
   );
 }

@@ -4,39 +4,36 @@ import Resume from "../../resume.json";
 
 function Hero() {
   return (
-    <section className="hero is-dark is-fullheight has-bg-image">
+    <section className="hero is-fullheight has-bg-image">
       <div className="hero-head">
         <NavBar />
       </div>
       <div className="hero-body">
-        <div className="container">
-          <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title">{Resume.basics.label}</h1>
-          <h2 className="subtitle">
+        <div className="container hero-content">
+          <p className="hero-kicker">I'm a</p>
+          <h1 className="hero-title">{Resume.basics.label}</h1>
+          <h2 className="hero-subtitle">
             {Resume.basics.location.region}, {Resume.basics.location.country}
           </h2>
         </div>
       </div>
-      <div className="hero-foot" style={{ paddingBottom: "20px" }}>
-        <div className="columns is-mobile">
-          <div className="column"></div>
-          {Resume.basics.profiles.map((value, index) => {
-            return (
-              <div key={index} className="column has-text-centered">
-                <a
-                  href={value.url}
-                  target="blank"
-                  className="is-hovered"
-                  title={value.network}
-                >
-                  <span className="icon is-medium is-">
-                    <i className={value.x_icon}></i>
-                  </span>
-                </a>
-              </div>
-            );
-          })}
-          <div className="column"></div>
+      <div className="hero-foot">
+        <div className="social-row">
+          {Resume.basics.profiles.map((profile) => (
+            <a
+              key={profile.network}
+              href={profile.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+              title={profile.network}
+              aria-label={profile.network}
+            >
+              <span className="icon is-medium">
+                <i className={profile.x_icon}></i>
+              </span>
+            </a>
+          ))}
         </div>
       </div>
     </section>

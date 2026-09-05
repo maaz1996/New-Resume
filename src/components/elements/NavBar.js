@@ -1,53 +1,37 @@
-import React from "react";
-import MenuItem from "./MenuItem";
+import React, { useEffect, useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 import Resume from "../../resume.json";
 
-class NavBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { showMenu: false };
-    this.handleMenuClick = this.handleMenuClick.bind(this);
-  }
+function NavBar() {
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  handleMenuClick(e) {
-    const currentState = this.state.showMenu;
-    this.setState({ showMenu: !currentState });
-  }
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
-  render() {
-    return (
-      <nav className="navbar is-transparent">
-        <div className="container">
-          <div className="navbar-brand">
-            <a href="/" className="navbar-item title is-unselectable my-name">
-              {Resume.basics.name}
-            </a>
-            <span
-              className="navbar-burger burger"
-              onClick={this.handleMenuClick}
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div
-            className={
-              "navbar-menu nav-menu " +
-              (this.state.showMenu ? "is-active" : null)
-            }
-          >
-            <div className="navbar-end" onClick={this.handleMenuClick}>
-              <MenuItem text="About Me" href="#aboutMe" />
-              <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Experience" href="#experience" />
-              <MenuItem text="Articles" href="#articles" />
-            </div>
-          </div>
+  return (
+    <nav
+      className={`site-nav ${isScrolled ? "is-scrolled" : ""}`}
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="site-nav-inner">
+        <a href="/" className="site-nav-brand">
+          <span className="brand-mark" aria-hidden="true">
+            <i className="fab fa-github"></i>
+          </span>
+          <span className="brand-text">{Resume.basics.name}</span>
+        </a>
+
+        <div className="site-nav-actions">
+          <ThemeToggle />
         </div>
-      </nav>
-    );
-  }
+      </div>
+    </nav>
+  );
 }
 
 export default NavBar;

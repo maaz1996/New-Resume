@@ -1,13 +1,12 @@
 import React from "react";
 
-function Badge(props) {
-  const faIcon = "fas fa-1x " + props.faIcon;
+function Badge({ text, faIcon }) {
   return (
-    <div className="control">
+    <div className="control interest-badge">
       <div className="tags has-addons">
-        <span className="tag is-dark">{props.text}</span>
+        <span className="tag is-dark">{text}</span>
         <span className="tag is-success">
-          <i className={faIcon}></i>
+          <i className={`fas fa-1x ${faIcon}`} aria-hidden="true"></i>
         </span>
       </div>
     </div>

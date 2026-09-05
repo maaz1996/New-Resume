@@ -2,9 +2,18 @@
   "basics": {
     "name": "Maaz Abdullah",
     "label": "Member of Technical Staff 2",
+    "x_headline": "Senior Member of Technical Staff @ Nielsen",
     "picture": "images/me.png",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 7 years of experience in Software Engineering. Currently, I’m working as a MTS-2 exploring the world of identity. I have been involed with Media, Ed Tech Industry, Human Capital Management and CRM. I’m interested in Coding, Problem Solving, Mathematics, Travelling and Photography! ",
+    "x_title": "Hey there — glad you're here",
+    "summary": "An Engineer with 7+ years of experience who loves coding, problem solving, Mathematics, Travelling and Photography.",
+    "x_about": "Software engineer with 7+ years of experience across identity, media, ed-tech, human capital management, and CRM. Currently MTS-2 at Nielsen, designing and shipping production systems. Passionate about building reliable software, solving hard problems, and continuously learning. Outside of work: mathematics, travelling, and photography.",
+    "pinnedRepos": [
+      "nightswatch",
+      "url-shortner",
+      "cricket-game",
+      "New-Resume",
+      "maaz1996"
+    ],
     "location": {
       "country": "India",
       "countryCode": "IND",
@@ -35,46 +44,46 @@
     {
       "company": "Nielsen",
       "position": "Member of Technical Staff 2",
-      "website": "https://www.bosch.hu",
+      "website": "https://www.nielsen.com",
       "startDate": "2024-08-22",
       "endDate": "",
-      "summary": "Joined as MTS-2 with an aim to engineer and moderate code",
+      "summary": "Engineering identity and access systems — building reliable services, moderating code quality, and shipping features at scale.",
       "highlights": []
     },
     {
       "company": "Techmojo",
       "position": "Member of Technical Staff 1",
-      "website": "https://www.bosch.hu",
+      "website": "https://www.techmojo.com",
       "startDate": "2024-01-22",
       "endDate": "2024-07-31",
-      "summary": "Joined as MTS-1 in a new city with a zeal for learning and development",
+      "summary": "Joined as MTS-1 focused on learning, delivery, and growing ownership across the stack.",
       "highlights": []
     },
     {
       "company": "Sunstone",
       "position": "Software Engineer",
-      "website": "https://www.bosch.hu",
+      "website": "https://sunstone.in",
       "startDate": "2022-03-14",
       "endDate": "2023-12-20",
-      "summary": "Joined as Software Engineer with an Enthusiam to revolutionize the Ed-tech world",
+      "summary": "Built product features for the ed-tech platform — APIs, services, and student-facing experiences.",
       "highlights": []
     },
     {
       "company": "Stepping Cloud",
       "position": "SAP Integration and Innovation Consultant",
-      "website": "https://www.bosch.hu",
+      "website": "https://www.steppingcloud.com",
       "startDate": "2019-07-22",
-      "endDate": "",
-      "summary": "Joined the Alumni Portal Project as Backend developer, Got into SAP SuccessFactors Domain, REST APIs, Integration, Workforce Analytics",
+      "endDate": "2022-03-01",
+      "summary": "Backend development on Alumni Portal; SAP SuccessFactors, REST APIs, integrations, and Workforce Analytics.",
       "highlights": []
     },
     {
       "company": "Zakir Hussain College of Engg & Technology, AMU",
-      "position": "Computer Engineering(2015-2019)",
-      "website": "https://www.eem.pt",
+      "position": "Computer Engineering (2015–2019)",
+      "website": "https://www.amu.ac.in",
       "startDate": "2015-08-01",
       "endDate": "2019-06-22",
-      "summary": "Object Oriented Programming, Database Management Systems, Algorithm & Data Structure,Computer Networks",
+      "summary": "Object Oriented Programming, Database Management Systems, Algorithms & Data Structures, Computer Networks.",
       "highlights": []
     }
   ],
@@ -88,13 +97,12 @@
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
-        "Algorithm & Data Structure",
+        "Algorithms & Data Structures",
         "Computer Networks"
       ]
     }
   ],
   "skills": [
-    
     {
       "name": "Node.js",
       "level": "Intermediate",
@@ -106,12 +114,12 @@
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "Javascript",
+      "name": "JavaScript",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "MongoDb",
+      "name": "MongoDB",
       "level": "Intermediate",
       "keywords": ["Programming Languages"]
     },
@@ -136,12 +144,12 @@
       "keywords": ["Programming Languages"]
     },
     {
-      "name": "Algorithm & Data Structure",
+      "name": "Algorithms & Data Structures",
       "level": "Advanced",
       "keywords": ["Frameworks/Problem Solving"]
     },
     {
-      "name": "Github",
+      "name": "GitHub",
       "level": "Intermediate",
       "keywords": ["Frameworks/Problem Solving"]
     },
@@ -171,7 +179,7 @@
       "keywords": ["Frameworks/Problem Solving"]
     },
     {
-      "name": "SAP Successfactors",
+      "name": "SAP SuccessFactors",
       "level": "Intermediate",
       "keywords": ["Frameworks/Problem Solving"]
     }
@@ -193,7 +201,7 @@
     },
     {
       "name": "Developer",
-      "x_icon": "fa-gamepad"
+      "x_icon": "fa-laptop-code"
     },
     {
       "name": "Problem Solver",
