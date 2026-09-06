@@ -9,7 +9,14 @@ import Projects from "../sections/Projects";
 function Content() {
   return (
     <main className="profile-page">
-      <div className="profile-banner" aria-hidden="true"></div>
+      <div className="profile-banner" role="img" aria-label="Mountain travel header banner">
+        <img
+          src="images/header-banner.jpg"
+          alt=""
+          className="profile-banner-image"
+        />
+        <div className="profile-banner-overlay"></div>
+      </div>
       <div className="profile-shell">
         <ProfileSidebar />
         <div className="profile-main">
